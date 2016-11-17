@@ -17,8 +17,8 @@
   ],
   "homepage": "http://nodeapps.github.com/helloworld",
   "scripts": {
-    "start": "echo 'Hello'",
-    "test" : "node ./bin/server"
+    "start": "node ./bin/server",
+    "test" : "echo 'Hello'"
   },
   "contributors": [
     {
