@@ -4,10 +4,3 @@ language: node_js
 node_js:
   - 6
 
-script: cd test2/helloworld
-node bin/server
-
-# configure notifications (email, IRC, campfire etc)
-# please update this section to your needs!
-notifications:
-  irc: "irc.freenode.org#travis"
