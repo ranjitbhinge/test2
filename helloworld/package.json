@@ -18,7 +18,7 @@
   "homepage": "http://nodeapps.github.com/helloworld",
   "scripts": {
     "start": "node ./bin/server",
-    "test" : "./bin server.js"
+    "test" : "node ./bin/server"
   },
   "contributors": [
     {
@@ -34,7 +34,9 @@
       "email": "blakmatrix@gmail.com"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "jitsu" : "^0.15.0"
+  },
   "devDependencies": {},
   "engines": {
     "node": ">=0.4"
